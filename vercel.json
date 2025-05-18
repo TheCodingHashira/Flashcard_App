@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
     }
   ],
   "routes": [
@@ -12,8 +15,8 @@
       "dest": "/static/$1"
     },
     {
-      "src": "/manifest.json",
-      "dest": "/manifest.json"
+      "src": "/public/(.*)",
+      "dest": "/$1"
     },
     {
       "src": "/.*",
