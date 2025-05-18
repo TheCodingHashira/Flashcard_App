@@ -2,6 +2,9 @@
 
 A modern, interactive flashcard learning application built with React and Material-UI. This app helps users create, manage, and study flashcards efficiently using spaced repetition learning techniques.
 
+## 🌐 Live Demo  
+Check out the project here: [FlashLearn - Live Link](https://flashcard-app-jade.vercel.app/)
+
 ## Features
 
 - 📝 Create and manage multiple flashcard sets
@@ -72,4 +75,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Thanks to the React and Material-UI communities for their amazing tools
-- Special thanks to all contributors who have helped improve this project
+
