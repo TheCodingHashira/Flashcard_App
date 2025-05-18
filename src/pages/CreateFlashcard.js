@@ -5,8 +5,7 @@ import { Container, Typography, TextField, Button, Card, CardContent, Box, IconB
 import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/Delete';
 import SaveIcon from '@mui/icons-material/Save';
-import Lottie from 'lottie-react';
-import successAnimation from '../animations/success.json';
+
 
 function CreateFlashcard() {
   const theme = useTheme();

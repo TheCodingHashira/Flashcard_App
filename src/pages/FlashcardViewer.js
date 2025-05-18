@@ -18,7 +18,7 @@ import {
 } from '@mui/icons-material';
 
 function FlashcardViewer() {
-  const { setId } = useParams();
+  useParams();
   const [isFlipped, setIsFlipped] = useState(false);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [progress, setProgress] = useState(0);
