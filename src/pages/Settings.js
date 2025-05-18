@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTheme } from '@mui/material/styles';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
   Box,
   Container,
@@ -10,7 +10,6 @@ import {
   FormControlLabel,
   TextField,
   Button,
-  Divider,
   Select,
   MenuItem,
   FormControl,

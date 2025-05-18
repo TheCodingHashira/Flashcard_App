@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
   Box,
   Button,
@@ -10,13 +10,10 @@ import {
   Paper,
   useTheme,
   useMediaQuery,
-  IconButton,
   LinearProgress,
   Switch,
   FormControlLabel,
   Card,
-  CardContent,
-  Chip,
 } from '@mui/material';
 import {
   Timer as TimerIcon,
